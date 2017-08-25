@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta charset="utf-8">
+
+  <title>接入亚马逊Echo音箱教程 - 机智云</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <meta name="Description" content="接入亚马逊Echo音箱教程-机智云">
+  <meta name="keywords" content="接入亚马逊Echo音箱教程 docs 文档中心 Gizwits">
+
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="/css/pure.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/documentation.css">
+  <link rel="stylesheet" href="/css/share.min.css">
+</head>
+  <body>
+    <div class="header">
+  <div class="container pure-g">
+    <span class="brand pure-u-5-24">
+
+      <a href="http://www.gizwits.com" class="logo">
+        <img src="/images/logo.png" alt="logo"> 
+      </a>
+      <a class="text" href="/">文档中心</a>
+    </span>
+    
+    <div class="mobile-header"v>
+      <span class="title">机智云 文档中心</span>
+      <i class="fa fa-caret-square-o-down fa-lg" aria-hidden="true"></i>
+    </div>
+    
+
+    <span class="menu pure-u-16-24">
+      <ul class="levelA-wrapper">
+        
+          
+            <li class="levelA"><a href="/zh-cn/overview/overview.html">平台概述</a></li>
+          
+        
+          
+            <li class="levelA">
+              快速入门 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/quickstart/5分钟了解机智云.html">5分钟了解机智云</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/quickstart/noun.html">机智云名词定义解释</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      设备快速接入机智云 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/quickstart/设备快速接入.html">独立MCU方案快速入门</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/UseSOC.html">SOC方案快速入门</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      App快速接入机智云 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/quickstart/准备工作.html">App开发准备工作</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/quickstart/AndroidAppFrame.html">Android App 快速开发</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/quickstart/iOSAPP快速入门.html">iOS App 快速开发</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="levelA">
+              APP开发 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/devApp.html">App代码自动生成服务介绍</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      App 开源框架 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/iosframe.html">iOS 开源框架说明(含源码)</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/iOS消息推送.html">iOS 消息推送</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/iOS第三方登陆与换肤.html">iOS 第三方登录与换肤</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/Android开源框架使用指南.html">Android 开源框架说明（含源码）</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/Android消息推送.html">Android 消息推送</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/Android第三方登录与换肤.html">Android 第三方登录与换肤</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/APICloudFrame.html">APICloud开源框架使用指南(含源码)</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/AppDev/iOSSDKA2.html">iOS SDK</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/AppDev/AndroidSDKA2.html">Android SDK</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/AppDev/APICloudWifiSDK.html">APICloud SDK</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      更多App开发指南 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/SDK数据透传方法解析.html">SDK数据透传方法解析</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      App开发教学视频 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/AppDev/开源框架视频教程.html">开源框架使用视频教程</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="levelA">
+              微信开发 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/WechatDev/了解微信应用开发.html">了解微信应用开发</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/WechatDev/WeChatDev.html">微信应用开发教程</a></li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="levelA">
+              设备开发 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/deviceDev/gagent_info.html">GAgent详解</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      MCU开发框架使用说明 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/DevSDK/代码自动生成工具.html">GoKit3代码自动生成工具</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/GoKit3 DEV SDK Common版移植说明.html">GoKit3 DEV SDK Common版移植说明</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      Gokit资料 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3/Gokit3开发套件简介.html">Gokit3系列开发套件简介</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3/GoKit3硬件手册.html">Gokit3硬件手册</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/WiFiSOC/GoKit3S使用说明书.html">GoKit3(S)使用说明书</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/WiFiSOC/GoKit3S开发套件介绍.html">Gokit3(S)开发套件介绍</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/WiFiSOC/GoKit3S二次开发.html">GoKit3(S)开发环境搭建</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/WiFiSOC/GoKit3S程序详解.html">Gokit3(S)源码详解</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3Voice/GoKit3V使用说明书.html">GoKit3(V)使用说明书</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3Voice/GoKit3V二次开发指南.html">Gokit3(V)开发指南</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3Voice/GoKit3V词条.html">GoKit3(V)词条管理</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit3Voice/GoKit3V程序详解.html">Gokit3(V)源码详解</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/Gokit2使用指南.html">Gokit2 使用指南</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      调试与烧写 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/串口工具使用文档.html">串口工具使用文档</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/HF-LPB100串口烧写说明.html">HF-LPB100串口烧写说明</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/debug/HF-LPT120.html">HF-LPT120串口烧写说明</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/MXCHIP串口烧写说明.html">MXCHIP串口烧写说明</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/ESP8266串口烧写说明.html">ESP8266串口烧写说明</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/debug/G510.html">广和通G510模组烧写方法</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/日志抓取教程文档.html">日志抓取教程文档</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/ecevideos.html">ECE Demo开发教程</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      ArduinoUno开发教程 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/ArduinoUNO/intro.html">ArduinoUNOWiFi接入机智云介绍</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/ArduinoUNO/Tutorial.html">ArduinoUnoWiFi 之ESP8266固件烧写教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/ArduinoUNO/sdk.html">ArduinoUnoWiFi SDK之API介绍</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/deviceDev/ArduinoUNO/example.html">Arduino Uno WiFi智能小夜灯</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="levelA">
+              云平台 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/Cloud/ent_dev.html">企业应用开发</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/Cloud/enterprise_api.html">企业API</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/Cloud/NotificationAPI.html">SNoti API</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/Cloud/openapi_apps.html">Open API 指南</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/Cloud/WebsocketAPI.html">WebSocketAPI</a></li>
+                  
+                
+                  
+                    <li class="levelB has-submenu">
+                      API／SDK使用教程 &#9656;
+                      <ul class="levelC-wrapper">
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/UseOpenAPI.html">使用OpenAPI控制虚拟设备教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/UseWebsocket.html">使用Websocket 网页控制设备教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/DataAPI.html">使用聚合API教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/LinkageAPI.html">设备联动API使用教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/UseSNoti.html">Snoti 数据实时同步服务demo使用教程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/Cloud/SharingSDK.html">设备分享功能SDK使用流程</a></li>
+                        
+                          <li class="levelC"><a href="/zh-cn/UserManual/UseQRCode.html">APP绑定设备二维码生成教程</a></li>
+                        
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="levelA">
+              用户手册 &#9662;
+              <ul class="levelB-wrapper">
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/change.html">个人项目产品转企业项目产品</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/OTA使用教程.html">OTA使用教程</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/deviceDev/产测工具使用文档.html">产测工具使用文档</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/D3.html">D3 Engine使用教程</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/ece.html">ECE雾计算使用教程</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/echo.html">接入亚马逊ECho教程</a></li>
+                  
+                
+                  
+                    <li class="levelB"><a href="/zh-cn/UserManual/rtbd.html">实时大数据使用教程</a></li>
+                  
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </span>
+  
+    <span class="pure-u-3-24 lang-switch-wrapper">
+      <i class="fa fa-globe" aria-hidden="true"></i> 
+      
+      <a href="http://docsen.gizwits.com/hc/" class="lang-switch">English</a>
+      
+    </span>
+
+  </div>
+</div>
+    <div class="body">
+  
+  <div class="container clearfix">
+    <div class="navigation">
+      <div class="navigation-inner">
+        <div class="nav-title">目录</div>
+        <div class="nav"></div>
+      </div>
+    </div>
+    <div class="markdown-body" data-spy="scroll" data-target=".navigation">
+      <div class="heading">
+        <div class="title">接入亚马逊Echo音箱教程</div>
+        <a class="edit-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> 文档编辑</a>
+      </div>
+      <h1 id="1、概述"><a href="#1、概述" class="headerlink" title="1、概述"></a>1、概述</h1><p>本文介绍了亚马逊Echo音箱如何接入机智云并且控制机智云下的GOKIT设备</p>
+<h2 id="1-1-接入流程"><a href="#1-1-接入流程" class="headerlink" title="1.1 接入流程"></a>1.1 接入流程</h2><p><strong>关系图：</strong></p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484625601810.png" alt="Alt text"></p>
+<p>机智云云端：即机智云云端数据库，云端对外提供OpenApi，即访问数据的接口，企业和个人开发者想要得到设备接入、用户账号管理、用户与设备绑定管理、设备远程监控、定时任务以及设备高级数据等服务，可以调用Open Api来实现这些功能。（详情使用方法点击此处跳转）</p>
+<p>Alexa：Alexa是Amazon Echo的语音服务提供了功能或技能，使客户能够使用语音以更直观的方式与设备进行交互。 技能的例子包括播放音乐，回答一般问题，设置闹钟或计时器等的能力。</p>
+<p>Alexa Skill：Alexa技能工具包是自助服务API，工具，文档和代码示例的集合，使您能够快速，轻松地向Alexa添加技能。所有代码在云中运行，在任何用户设备上都没有。</p>
+<p>AWS Lambda：AWS Lambda是Amazon提供的计算服务, 它目前提供的程式语言有Node.js, Python, 以及java, 使用者可以撰写程式码, 并且使用AWS其它服务 (Ex. AWS IoT, logger)。 Lambda让使用者设定计算所需要的资源, 像是记忆体, 运算时间等等，Lambda会处理运算的部份。</p>
+<p>控制原理：控制机智云设备可以调用机智云的OpenAPI，OpenAPI控制设备的调用接口需要用到注册机智云用户时候返回的User Token，机智云对亚马逊授权开放该接口，与亚马逊账号进行互联互通，使得亚马逊可在Alexa里填入接口的相应的URL绑定机智云账号，从而调用到Access Token，传到Lambda里去再通过OpenAPI调用控制设备的接口进行控制。</p>
+<p><strong>流程图：</strong></p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484625616584.png" alt="Alt text"></p>
+<h2 id="1-2-接入须知"><a href="#1-2-接入须知" class="headerlink" title="1.2 接入须知"></a>1.2 接入须知</h2><p>1、具备产品互联的服务功能（申请条件：机智云企业开发者，购买了GDCS服务包的企业客户）</p>
+<p>2、熟悉《设备快速接入机智云文档》《App快速接入机智云文档》并且能够完成整个接入</p>
+<h2 id="1-3-准备工作"><a href="#1-3-准备工作" class="headerlink" title="1.3 准备工作"></a>1.3 准备工作</h2><p>硬件设备：亚马逊Echo音箱、机智云GOKIT设备<br>软件：机智云APP<br>其他：机智云开发者账号、亚马逊开发者账号、亚马逊AWS Lambda账号</p>
+<h1 id="2、机智云配置"><a href="#2、机智云配置" class="headerlink" title="2、机智云配置"></a>2、机智云配置</h1><p>本节要点：申请机智云产品互联服务，配置机智云的产品互联，配置Alexa定向URL来绑定机智云。</p>
+<h2 id="2-1-设备接入"><a href="#2-1-设备接入" class="headerlink" title="2.1 设备接入"></a>2.1 设备接入</h2><p>按照文档中心的《设备快速接入机智云》绑定设备，获取设备did （<a href="http://docs.gizwits.com/zh-cn/quickstart/%E8%AE%BE%E5%A4%87%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5.html" target="_blank" rel="external">点击此处跳转</a>）</p>
+<h2 id="2-1-APP开发"><a href="#2-1-APP开发" class="headerlink" title="2.1 APP开发"></a>2.1 APP开发</h2><p>按照文档中心的《App快速接入机智云》注册登陆机智云账号获取User Token和AppId进行绑定  （<a href="http://docs.gizwits.com/zh-cn/quickstart/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.html" target="_blank" rel="external">点击此处跳转</a>）</p>
+<h2 id="2-3-申请产品互联并配置"><a href="#2-3-申请产品互联并配置" class="headerlink" title="2.3 申请产品互联并配置"></a>2.3 申请产品互联并配置</h2><p><img src="/assets/zh-cn/UserManual/Echo/1484625737500.png" alt="Alt text"></p>
+<p>点击个人项目-服务-添加服务，找到产品互联，点击进去开通服务（必须是购买了GDCS服务包的企业客户）</p>
+<p>申请完成后，点开产品互联，点击亚马逊Echo，配置你App开发中所填入的AppID，点击配置。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484625881833.png" alt="Alt text"></p>
+<p>配置Client Nname和AlexaSkill上面的Redirect URL。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484637706571.png" alt="Alt text"></p>
+<h1 id="3、AlexaSkill配置"><a href="#3、AlexaSkill配置" class="headerlink" title="3、AlexaSkill配置"></a>3、AlexaSkill配置</h1><p>本节要点：配置AlexaSkill的语音控制逻辑，配置AlexaSkill和Lambda关联，配置AlexaSkill和机智云账号互联。</p>
+<h2 id="3-1-创建Skill以及配置interaction-model页面"><a href="#3-1-创建Skill以及配置interaction-model页面" class="headerlink" title="3.1 创建Skill以及配置interaction model页面"></a>3.1 创建Skill以及配置interaction model页面</h2><p>1）打开亚马逊开发者中心（<a href="https://developer.amazon.com/home.html" target="_blank" rel="external">点击此处跳转</a>），登陆之前所注册好的亚马逊开发者账号。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626095613.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/1484626099372.png" alt="Alt text"></p>
+<p>2）登陆成功后。跳转到developer console，点击ALEXA，点击Alexa Skills Kit的Get Started。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626108141.png" alt="Alt text"></p>
+<p>3）点击Add a New Skill</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626115654.png" alt="Alt text"></p>
+<p>4）</p>
+<ol>
+<li>Skill Information: 这里要填入一些基本资讯</li>
+<li>Interaction Model: 这里要填入互动模型</li>
+<li>Configuration: 这里要设定Alexa收到语音命令之后, 该往哪里提交request</li>
+<li>Test: 这里可以对已经建制好的模型做测试, 这个阶段里, 使用者已经可以使用自己创建的服务</li>
+<li>Publishing: Alexa的服务流程里, 最后会将使用者设计的服务上架, 所以需要填写相关的资讯</li>
+<li>Privacy &amp; Compliance: 设定一些隐私相关的设定</li>
+</ol>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626123280.png" alt="Alt text"></p>
+<p>5）我们首先填Skill Information</p>
+<ol>
+<li>Skill type: 选择 “Custom Interaction Model”</li>
+<li>Name: 这个地方填的是要显示给一般使用者的名称, 我们填入 “Control Light of Ameba”</li>
+<li>Invocation Name: 这里填的是让Alexa识别要启动session的名称。一般来说, Alexa启动session的方式有两种, 第一种是讲出完整的内容, 让Alexa分析互动模型来决定要启动哪个session, 第二种是使用者只讲Invocation Name, 让Alexa启动特定的session。这里我们填入 “Ameba Controller”<br>Invocation Name的取名有一些限制, 要避开Alexa设定的关键字, 以及会造成误判语意的名称, 详细的限制说明可以参考这里:<br><a href="https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill" target="_blank" rel="external">https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill</a></li>
+</ol>
+<p>设定好之后, 我们点选Next</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626142791.png" alt="Alt text"></p>
+<h2 id="3-1-1-intent-Schema（语音控制逻辑）"><a href="#3-1-1-intent-Schema（语音控制逻辑）" class="headerlink" title="3.1.1 intent Schema（语音控制逻辑）"></a>3.1.1 intent Schema（语音控制逻辑）</h2><p>Intent Schema设定了这个Skill会用到的intent, 它使用JSON格式如下</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626212536.png" alt="Alt text"></p>
+<p>一个skill里面可以填多个intent, 每个intent触发的的情况不同。 Intent里面可以填slot（也可以不填），slot就像是程式里的列举变数, 它分成两种</p>
+<p>Custom slot type: 使用者需要为slot列举可能的值<br>Built-in slot type: Amazon定义了一些常用的slot, 像是日期, 数字, 城市名……, 这类的slot会以AMAZON为前缀字</p>
+<p>详细的schema写法可以参考Amazon官网文章:<br><a href="https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface" target="_blank" rel="external">https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface</a><br>这里我们将schema填入底下的值:</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626226815.png" alt="Alt text"></p>
+<p>其中intent的名称是 “ControlLight”, 它有一个slot名称是 “LightState”, 型态是custom slot type “LIGHT_STATE”</p>
+<p>其中LIGHT_STATE是custom slot type, 所以我们点选 “Add Slot Type”来设定</p>
+<p>接着会跳出一个视窗让我们填slot的名字, 以及列举的值,<br>这里 “Enter Type” 的地方我们填 “LIGHT_STATE”, 接着 “Enter Values​​”的地方填入 “on”, “off”, 填完之后按 “Save”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626236165.png" alt="Alt text"></p>
+<h2 id="3-1-2-Sample-Utterances（语音命令配置）"><a href="#3-1-2-Sample-Utterances（语音命令配置）" class="headerlink" title="3.1.2 Sample Utterances（语音命令配置）"></a>3.1.2 Sample Utterances（语音命令配置）</h2><p>Sample Utterances, 这里要填的是当使用者说了什么句子时, 可以触发哪些intent, 我们填入以下的值<br>ControlLight Turn {LightState} the light<br>ControlLight Turn the light {LightState}</p>
+<p>它的格式里, 前面带的是intent名称, 接着是空白或tab, 后面跟着是使用者说的句子, 以第一行来说, 代表当使用者说了 “Turn on the light”会触发ControlLight intent<br>填完之后我们按 “Next”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626251575.png" alt="Alt text"></p>
+<h2 id="3-2-configuration的配置"><a href="#3-2-configuration的配置" class="headerlink" title="3.2 configuration的配置"></a>3.2 configuration的配置</h2><p>这个页面里需要填写与Alexa衔接的Endpoint。当使用者触发Alexa的intent之后, Alexa会将这个intent传递给其它service处理, 使用者可以自己架构这样的server, 或是使用Amazon AWS Lambda, 这里我们将暂停设定Alexa, 并且设定AWS Lambda, 稍后再将这部份完成</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626328760.png" alt="Alt text"></p>
+<p><strong>Account Linking的配置方法：</strong></p>
+<p>将下图页面的 Redirect URLs 设置到机智云 “产品互联” 的 Redirect URL 中，”Client Name” 可以填写 “Alexa”，填入机智云“产品互联”的Client ID和Client Secret作为请求身份验证的公共字符串。</p>
+<p>Authorization URL (<a href="https://oauth.gizwits.com/oauth/authorize" target="_blank" rel="external">https://oauth.gizwits.com/oauth/authorize</a>) 获取权限<br>Access Token URL (<a href="https://oauth.gizwits.com/oauth/token" target="_blank" rel="external">https://oauth.gizwits.com/oauth/token</a>) 获取access_token</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/图片1.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/图片2.png" alt="Alt text"></p>
+<p>有需要的用户可以填入隐私权限链接保护你的Alexa Skill，本教程选择不填，点击Next下一步。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484706885988.png" alt="Alt text"></p>
+<h1 id="4、Lambda配置"><a href="#4、Lambda配置" class="headerlink" title="4、Lambda配置"></a>4、Lambda配置</h1><p>本节要点：配置Lambda绑定AWS IOT ，配置Lambda绑定Alexa，编写Lambda逻辑代码解析AlexaSkill接收和返回的语音指令，编写OpenApi代码接入机智云云端并控制设备</p>
+<p>进入AWS Lambda的首页 <a href="https://aws.amazon.com/cn/lambda/" target="_blank" rel="external">https://aws.amazon.com/cn/lambda/</a><br>点选右边 “创建免费用户”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626447125.png" alt="Alt text"></p>
+<p>登陆成功后，选择美国东部。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626456752.png" alt="Alt text"></p>
+<p>点击服务-Lambda</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626463861.png" alt="Alt text"></p>
+<h2 id="4-1-创建和配置AlexaFuntion"><a href="#4-1-创建和配置AlexaFuntion" class="headerlink" title="4.1  创建和配置AlexaFuntion"></a>4.1  创建和配置AlexaFuntion</h2><p>Lambda预先设计了一些使用情境, 这些情境提供了一些sample code与default setting。要使用Alexa与Lambda衔接, 我们在Filter的地方填入Alexa</p>
+<p>填完之后会筛选出与Alexa相关的blueprint, 其中“alexa-skills-kit-color-expert”与“alexa-skills-kit-color-export-python”是相似的blueprint, 差别只在于“alexa-skills -kit-color-expert”使用的程式语言是JavaScript, 而“alexa-skills-kit-color-export-python”使用python, 这里我们选择“alexa-skills-kit-color-expert”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626476761.png" alt="Alt text"></p>
+<p>点击Configure triggers，这个页面里可以设定触发Lambda开始运算的event从哪里来, 我们点中间的虚线方框, 底下会出现预先设定好的服务列表, 这里我们选择 “Alexa Skills Kit”并且点击Next。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626497999.png" alt="Alt text"></p>
+<p>点击Configure function页面，这个页面里, 我们要填入与程式相关的内容<br>在Configure function里面, 有三个栏位:<br>“Name”的栏位用来识别这个Lambda function, 这里我们填 “ControlLight”<br>“Description”的栏位用来说明这个Lambda function的用途, 我们目前先使用预设值<br>“Runtime”的栏位设定要使用的程式语言, 根据之前设定的blueprint, 这边出现的值是 “python2.7”, 使用者也可以在这里或之后切换使用的程式语言</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626528967.png" alt="Alt text"></p>
+<p>在Lambda function code里面, 可以设定 Code entry type, 使用者可以选择直接线上写code, 或是上传程式码, 这里我们选择线上写code<br>这里我们先保留sample code, 之后再回来改code</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626535714.png" alt="Alt text"></p>
+<p>接下来设定Lambda function handler and role<br>“Handler”的部份, 我们保留预设值<br>“Role”的设定关系到Lambda的权限, 为了避免Lambda function使用了不该使用的服务, 我们可以设定Lambda function的权限, 这部份的服务来自于AWS IAM, 不过我们可以在这里直接设定, 在“Role”的下拉选单里, 点选“Create a custom role”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626547521.png" alt="Alt text"></p>
+<p>此时将弹出新的浏览器页面, 并将你带至AWS IAM的服务</p>
+<p>在Lambda带出的AWS IAM的设定页面里, 我们设定 “Role Name”为 “control_light”<br>然后点选 “View Policy Document”<br>会出现这个role的权限, 我们点选 “Edit”<br>会跳出视窗, 要你读过Execution Role的说明, 这里点选 “OK”<br>然后我们可以编辑这个role的权限, 可以看到预设值里, 这个Role的权限只有log的权限, 因为我们需要使用AWS IoT的权限, 所以我们修改它如下</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626554792.png" alt="Alt text"></p>
+<p>然后点击“允许”。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626561234.png" alt="Alt text"></p>
+<p>接着页面会关闭, 我们会跳回前一个Lambda设定的页面</p>
+<p>设定新的Role并且从AWS IAM返回之后, 可以看到 “Role”以及 “Existing Role”的栏位已经有值</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626620482.png" alt="Alt text"></p>
+<p>接着我们设定 Advanced settings<br>这里可以设定 Lambda需要使用的memory与执行的时间,<br>这里我们保留预设值, 接着点选 “Next”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626627416.png" alt="Alt text"></p>
+<p>最后会让你review相关的设定, 不过这些设定都可以之后再改变, 这里我们点选 “Create function”</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626643685.png" alt="Alt text"></p>
+<p>会出现恭喜你已完成设定的讯息, 请注意, 右上角的字串“ARN - arn:aws:lambda:us-east-1:xxxxxxxxxx”, 就是这个Lambda function的end point, 这个会用来填入Alexa的设定页面</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626655908.png" alt="Alt text"></p>
+<h2 id="4-2-Lambda中所对应skill的代码"><a href="#4-2-Lambda中所对应skill的代码" class="headerlink" title="4.2  Lambda中所对应skill的代码"></a>4.2  Lambda中所对应skill的代码</h2><p>回到Lambda的设定页面, 点选 “code”页签</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626694113.png" alt="Alt text"></p>
+<h3 id="4-2-1-event部分代码解析（Echo音箱逻辑处理）"><a href="#4-2-1-event部分代码解析（Echo音箱逻辑处理）" class="headerlink" title="4.2.1  event部分代码解析（Echo音箱逻辑处理）"></a>4.2.1  event部分代码解析（Echo音箱逻辑处理）</h3><p>在onIntent函式里, 会比对intent的名字, 这边我们会比对我们设定的intent名字 “ControlLight”, 并且返回 light_control的处理函数</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626706311.png" alt="Alt text"></p>
+<p>在light_control里面, 我们可以取得intent的slots资讯, 这边我们要取得的slot是 “LightState”<br>获取在skill上语音说话所传过来的value并传给switch_action，之后判断switch_action等于on时，则传Ture到switch_action_fun这个函数里。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626714763.png" alt="Alt text"></p>
+<p>之后再调用机智云的openapi对设备进行控制，详情请参考openapi的使用指南<br>（<a href="http://docs.gizwits.com/zh-cn/Cloud/openapi_apps.html）" target="_blank" rel="external">http://docs.gizwits.com/zh-cn/Cloud/openapi_apps.html）</a></p>
+<h1 id="5、Alexa应用端配置"><a href="#5、Alexa应用端配置" class="headerlink" title="5、Alexa应用端配置"></a>5、Alexa应用端配置</h1><p>本节要点：Echo音箱配置入网，AlexaSkill与亚马逊账号绑定，Alexa与机智云账号绑定。</p>
+<h2 id="5-1-配置Echo音箱入网"><a href="#5-1-配置Echo音箱入网" class="headerlink" title="5.1  配置Echo音箱入网"></a>5.1  配置Echo音箱入网</h2><p>用笔记本电脑点击链接<a href="http://alexa.amazon.com/spa/index.html" target="_blank" rel="external">http://alexa.amazon.com/spa/index.html</a> 配置<br>或用手机App来进行配置：下载链接<br>（<a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201602060）" target="_blank" rel="external">https://www.amazon.com/gp/help/customer/display.html?nodeId=201602060）</a><br>登陆亚马逊账号，进入Alexa配置页面，选择Echo音箱</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626746300.png" alt="Alt text"></p>
+<p>选择你使用的语言</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626759759.png" alt="Alt text"></p>
+<p>点击Connect to Wi-Fi</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626780464.png" alt="Alt text"></p>
+<p>当你的音箱旋转橙色光环，即进入配置模式，点击continue</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626784962.png" alt="Alt text"></p>
+<p>将你的电脑链接Echo音箱，当Echo音箱进入配置模式时，会发出一个Amazon-XXX的wifi，用电脑进行链接</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626791766.png" alt="Alt text"></p>
+<p>链接之后，网页自动切换成该页面，点击Continue</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626799437.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/1484626824252.png" alt="Alt text"></p>
+<p>选择你所要配置的wifi路由器，点击则进入配置。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626808465.png" alt="Alt text"></p>
+<p>稍等片刻后，便配置成功，点击continue。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626813128.png" alt="Alt text"></p>
+<h2 id="5-2-绑定机智云所注册的账号"><a href="#5-2-绑定机智云所注册的账号" class="headerlink" title="5.2  绑定机智云所注册的账号"></a>5.2  绑定机智云所注册的账号</h2><p>进入点击进入Skills，点右上角切换到Your Skills，点击Control GOKIT。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626833289.png" alt="Alt text"></p>
+<p>进入之后点击Enable</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626838409.png" alt="Alt text"></p>
+<p>进入之后点击Link Account</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626843445.png" alt="Alt text"></p>
+<p>之后跳转到登陆页面，这里登陆的是机智云APP所注册的用户名账号和密码，点击Sign in。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626853101.png" alt="Alt text"></p>
+<p>点击yes，弹出链接成功的窗口</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626865727.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/1484626870181.png" alt="Alt text"></p>
+<p>回到Control GOKIT页面，发现Link Account按钮消失了，则说明关联绑定机智云账号成功</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626875505.png" alt="Alt text"></p>
+<h1 id="6、AlexaSkill调试与发布"><a href="#6、AlexaSkill调试与发布" class="headerlink" title="6、AlexaSkill调试与发布"></a>6、AlexaSkill调试与发布</h1><p>本节要点：调试AlexaSkill是否成功与Lambda和机智云通讯，语音控制逻辑是否正确，如何发布Skill。</p>
+<h2 id="6-1-AlexaSkill和Lambda的绑定"><a href="#6-1-AlexaSkill和Lambda的绑定" class="headerlink" title="6.1  AlexaSkill和Lambda的绑定"></a>6.1  AlexaSkill和Lambda的绑定</h2><p>回到Alexa页面，点击configuration，North America的框里输入AWS Lambda ARN，Lambda ARN在Lambda的Function右上角可以查看到</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626891354.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/1484626904720.png" alt="Alt text"></p>
+<h2 id="6-2-发送控制指令进行测试"><a href="#6-2-发送控制指令进行测试" class="headerlink" title="6.2  发送控制指令进行测试"></a>6.2  发送控制指令进行测试</h2><p>在Test页面, 我们可以做一些基本测试<br>在Voice Simulator里, 我们可以测试Alexa收到的语音资料里, 它会如何发音<br>它使用SSML tags让Alexa发出特定的语音像是拼出hello, 点选Listen就可以听看看语音的结果</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626919082.png" alt="Alt text"></p>
+<p>这边的文字也就是Lambda回传的outputSpeech内容, 所以我们可以在Lambda的回传语音讯息里有更多弹性<br>在 “Service Simulator”, 我们可以填入使用者发出的语音讯息, 并且让Alexa假装听到这个讯息做对应的处理, 这里我们填入 “Turn on the light”, 然后点选 “Ask Control Gokit”<br>这段语音讯息会被Alexa处理, 送至Lambda function, Lambda function处理完之后再回传结果, 若正常返回结果，我们就可以对自己的Echo音响说话来语音控制Gokit了。<br>我们可以点选右下角的 “Listen” 可以聆听这段结果。</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626954374.png" alt="Alt text"></p>
+<h2 id="6-3-AlexaSkill发布"><a href="#6-3-AlexaSkill发布" class="headerlink" title="6.3  AlexaSkill发布"></a>6.3  AlexaSkill发布</h2><p>测试成功后，可以将自己编写的AlexaSkill发布提供给其他的Alexa用户使用，在Publishing information里可以填入自己Skill的一些基础信息，并点击Submit for Certification提交。</p>
+<p><strong>注：当Skill发布成功后，Skill的一些信息和参数等不可二次修改，请谨慎发布。</strong></p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484626992489.png" alt="Alt text"><br><img src="/assets/zh-cn/UserManual/Echo/1484626997903.png" alt="Alt text"></p>
+<p>若发布成功后，其他用户就可以在Alexa应用端的Skills-All Skills里搜索到</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484627004661.png" alt="Alt text"></p>
+<p>如在发布过程中遇到相关问题，可以联系机智云，我们将帮您发布你的skill</p>
+<h1 id="7、相关支持"><a href="#7、相关支持" class="headerlink" title="7、相关支持"></a>7、相关支持</h1><p>7.1 如果您是开发者</p>
+<p>GoKit是面向智能硬件开发者限量免费开放，注册我们的论坛或关注我们的官方微信均可发起申请即可。</p>
+<p>开发者论坛： <a href="http://club.gizwits.com/forum.php" target="_blank" rel="external">http://club.gizwits.com/forum.php</a></p>
+<p>文档中心：<a href="http://docs.gizwits.com/hc/" target="_blank" rel="external">http://docs.gizwits.com/hc/</a></p>
+<p>7.2 如果您是团体</p>
+<p>GizWits针对团体有很多支持计划，您可以和GizWtis联系，快速得到GoKit以及技术支持；</p>
+<p>网站地址：<a href="http://www.gizwits.com/about-us" target="_blank" rel="external">http://www.gizwits.com/about-us</a></p>
+<p>官方二维码：</p>
+<p><img src="/assets/zh-cn/UserManual/Echo/1484704804104.png" alt="Alt te    xt"></p>
+
+    </div>
+    
+    <div class="widget-wrapper">
+  <span class="widget">
+    <div>
+        <a id='share' target="_blank" title="分享">
+          <span>分享</span>
+        </a>
+        <div class="social-share" data-initialized="true">
+            <a href="#" class="social-share-icon icon-wechat"></a>
+            <a href="#" class="social-share-icon icon-weibo"></a>
+            <a href="#" class="social-share-icon icon-qq"></a>
+            <a href="#" class="social-share-icon icon-qzone"></a>
+            <a href="#" class="social-share-icon icon-douban"></a>
+        </div>
+    </div>
+    <a href="http://y0.cn/docs" target="_blank" title="项目登记">
+      <span>项目登记</span>
+    </a>
+    <a href="https://github.com/gizwits-docs/gizwits-docs/issues" target="_blank" title="问题反馈">
+      <span>问题反馈</span>
+    </a>
+    <a href="#" title="返回顶部"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></a>
+  </span>
+</div>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="container">
+    <p>
+      <span><a href="http://www.gizwits.com" target="_blank">机智云首页</a></span>
+      <span><a href="http://www.gizwits.com/about-us" target="_blank">关于我们</a></span>
+      <span><a href="http://www.gizwits.com/about-us#contact-us" target="_blank">联系我们</a></span>
+      <span><a href="http://www.gizwits.com/join-us" target="_blank">加入我们</a></span>
+    </p>
+    <p>&#169;2011-2017; Gizwits IoT Technology Co., Ltd. 粤ICP备11090211号</p>
+  </div>
+</div>
+
+    <script src="/js/spin.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.hashchange.min.js"></script>
+<script src="/js/clipboard.min.js"></script>
+<script src="/js/scrollspy.js"></script>
+<script src="/js/social-share.min.js"></script>
+<script src="/js/documentation.js"></script>
+
+
+<script type="text/javascript" src="http://webchat.7moor.com/javascripts/7moorInit.js?accessId=b01e0430-943a-11e6-8ad7-636675d9e71f&autoShow=true" async='async'></script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?3787e6b3b29a084fde41f22828d89b7d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>
